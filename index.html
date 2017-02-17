@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+		<title>苏宁易购新手攻略</title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
+		<link rel="stylesheet" type="text/css" href="css/page.css"/>
+		<style type="text/css">
+			a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,button,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,textarea,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;box-sizing:border-box}address,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left;font-weight:400}abbr,body,fieldset,html,iframe,img{border:0}address,cite,dfn,em,i,var{font-style:normal}[hidefocus],summary{outline:0}li{list-style:none}h1,h2,h3,h4,h5,h6,small{font-size:100%}sub,sup{font-size:83%}code,kbd,pre,samp{font-family:inherit}q:after,q:before{content:none}textarea{overflow:auto;resize:none}input,textarea{-webkit-appearance:none;border:none;outline:0;background:0 0;-webkit-tap-highlight-color:rgba(255,0,0,0)}label,summary{cursor:default}a,button{cursor:pointer;background:0 0;border:none}b,em,h1,h2,h3,h4,h5,h6,strong{font-weight:700}a,del,ins,s,u{text-decoration:none}body,button,input,keygen,legend,select,textarea{color:#333;outline:0;font-family:"microsoft yahei",STHeiTi,sans-serif}body{background-color:#fff}a{-webkit-tap-highlight-color:rgba(255,0,0,0);outline:0}@media screen and (min-width:320px){html{font-size:21.33px}}@media screen and (min-width:360px){html{font-size:24px}}@media screen and (min-width:375px){html{font-size:25px}}@media screen and (min-width:414px){html{font-size:27.6px}}@media screen and (min-width:480px){html{font-size:32px}}@media screen and (min-width:640px){html{font-size:42.67px}}@media screen and (min-width:750px){html{font-size:50px}}
+		</style>
+	</head>
+	<body>
+		<img src="img/share.jpg" style="display: none;"/>
+		<div class="mainBox swiper-container">
+			<header>
+				<img src="img/headPic.jpg"/>
+			</header>
+			<div class="tab-pane swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/main1.jpg" class="mainPic"/>
+					<div class="pagePic pagePic1-3"></div>
+					<div class="pagePic pagePic1-4"></div>
+					<div class="pagePic pagePic1-7"></div>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/main2.jpg" class="mainPic"/>
+					<div class="pagePic pagePic2-5"></div>
+					<div class="pagePic pagePic2-7"></div>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/main3.jpg" class="mainPic"/>
+					<div class="pagePic pagePic3-3"></div>
+					<div class="pagePic pagePic3-5"></div>
+					<div class="pagePic pagePic3-7"></div>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/main4.jpg" class="mainPic"/>
+					<div class="pagePic pagePic4-5"></div>
+					<div class="pagePic pagePic4-7"></div>
+					<div class="pagePic pagePic4-9"></div>
+				</div>
+			</div>
+			<div class="popupBox">
+				<img src="img/popup4-5.jpg" class="popupPic"/>
+				<img src="img/popup4-7.jpg" class="popupPic"/>
+				<img src="img/popup4-9.jpg" class="popupPic"/>
+				<img src="img/popup1-3.jpg" class="popupPic"/>
+				<img src="img/popup1-4.jpg" class="popupPic"/>
+				<img src="img/popup1-7.jpg" class="popupPic"/>
+				<img src="img/popup2-5.jpg" class="popupPic"/>
+				<img src="img/popup2-7.jpg" class="popupPic"/>
+				<img src="img/popup3-3.jpg" class="popupPic"/>
+				<img src="img/popup3-5.jpg" class="popupPic"/>
+				<img src="img/popup3-7.jpg" class="popupPic"/>
+				<img src="img/popup4-5.jpg" class="popupPic"/>
+				<img src="img/popup4-7.jpg" class="popupPic"/>
+				<img src="img/popup4-9.jpg" class="popupPic"/>
+				<img src="img/popup1-3.jpg" class="popupPic"/>
+				<img src="img/popup1-4.jpg" class="popupPic"/>
+				<img src="img/popup1-7.jpg" class="popupPic"/>
+				<img src="img/btn-close.png" class="btn-close"/>
+				<div class="popup"></div>
+			</div>
+			<div class="tab-plugin my-pagination">
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/swiper.min.js" ></script>
+		<script type="text/javascript">
+			var mySwiper = new Swiper ('.swiper-container', {
+				autoplay: false,//自动切换时间间隔
+				loop: true,//是否循环
+				slidesPerView: 1,//一次移动几个
+				initialSlide: 0,//开始位置
+				speed: 300,//切换时速度
+				pagination: '.my-pagination',
+				paginationClickable: true,
+				onSlideChangeStart: function(swiper){
+			      	$('html,body').scrollTop(0);
+			    },//滑片切换开始时执行
+				paginationBulletRender: function (index, className) {
+					switch (index) {
+						case 0: name='使用优惠券';break;
+						case 1: name='苏宁自营';break;
+						case 2: name='退换维修';break;
+						case 3: name='领云钻';break;
+						default: name='';
+					};
+					return '<span class="' + className + '">' + name + '</span>';
+				}
+			});
+
+			$('.pagePic').click(function(){
+				var index = $('.pagePic').index($(this));
+				$('.popupPic').eq(index).show();
+				$('.popupBox').show();
+//					$('html,body').addClass('slidingNo');
+				$('html,body').on('touchmove mousewheel', function (e) {
+					e.preventDefault();
+				});
+				//锁定滑片
+				mySwiper.lockSwipes();
+			});
+
+			$('.btn-close').click(function(){
+				$('.popupPic').hide();
+				$('.popupBox').hide();
+//					$('html,body').removeClass('slidingNo');
+				$('html,body').off('touchmove mousewheel');
+				mySwiper.unlockSwipes();//解锁滑动
+			});
+		</script>
+	</body>
+</html>
